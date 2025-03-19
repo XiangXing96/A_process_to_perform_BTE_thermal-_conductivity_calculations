@@ -1,0 +1,147 @@
+        _                      _____
+  _ __ | |__   ___  _ __   ___|___ / _ __  _   _
+ | '_ \| '_ \ / _ \| '_ \ / _ \ |_ \| '_ \| | | |
+ | |_) | | | | (_) | | | | (_) |__) | |_) | |_| |
+ | .__/|_| |_|\___/|_| |_|\___/____/| .__/ \__, |
+ |_|                                |_|    |___/ 
+                        3.5.2-dev2+gd8490c88
+
+-------------------------[time 2024-10-04 20:07:45]-------------------------
+Compiled with OpenMP support (max 128 threads).
+Python version 3.8.18
+Spglib version 2.4.0
+
+Unit cell was read from "POSCAR".
+-------------------------------- unit cell ---------------------------------
+Lattice vectors:
+  a    0.000000000000000    2.734313312463414    2.734313312463414
+  b    2.734313312463414    0.000000000000000    2.734313312463414
+  c    2.734313312463414    2.734313312463414   -0.000000000000000
+Atomic positions (fractional):
+    1 Si  0.00000000000000  0.00000000000000 -0.00000000000000  28.085
+    2 Si  0.25000000000000  0.25000000000000  0.25000000000000  28.085
+----------------------------------------------------------------------------
+Supercell (dim): [2 2 2]
+Phonon supercell (dim-fc2): [2 2 2]
+Displacement distance: 0.03
+Number of displacements: 57
+Number of displacements for special fc2: 1
+Spacegroup: Fd-3m (227)
+Displacement dataset was written in "phono3py_disp.yaml".
+-------------------------[time 2024-10-04 20:07:45]-------------------------
+                 _
+   ___ _ __   __| |
+  / _ \ '_ \ / _` |
+ |  __/ | | | (_| |
+  \___|_| |_|\__,_|
+
+        _                      _____
+  _ __ | |__   ___  _ __   ___|___ / _ __  _   _
+ | '_ \| '_ \ / _ \| '_ \ / _ \ |_ \| '_ \| | | |
+ | |_) | | | | (_) | | | | (_) |__) | |_) | |_| |
+ | .__/|_| |_|\___/|_| |_|\___/____/| .__/ \__, |
+ |_|                                |_|    |___/ 
+                        3.5.2-dev2+gd8490c88
+
+-------------------------[time 2024-10-04 20:10:12]-------------------------
+Compiled with OpenMP support (max 128 threads).
+Python version 3.8.18
+Spglib version 2.4.0
+----------------------------- General settings -----------------------------
+HDF5 data compression filter: gzip
+Crystal structure was read from "phono3py_disp.yaml".
+Supercell (dim): [2 2 2]
+Phonon supercell (dim-fc2): [2 2 2]
+Spacegroup: Fd-3m (227)
+Use -v option to watch primitive cell, unit cell, and supercell structures.
+----------------------------- Force constants ------------------------------
+Imposing translational and index exchange symmetry to fc2: False
+Imposing translational and index exchange symmetry to fc3: False
+Sets of supercell forces were read from "FORCES_FC3".
+Displacement dataset for fc3 was read from "FORCES_FC3".
+Computing fc3[ 1, x, x ] using numpy.linalg.pinv.
+One displacement (in Angstrom):
+    [ 0.0000  0.0212  0.0212]
+Expanding fc3.
+Writing fc3 to "fc3.hdf5".
+Max drift of fc3: 0.304740 (yxy) -0.141857 (yzx) -0.000021 (xxy)
+Sets of supercell forces were read from "FORCES_FC2".
+Displacement dataset for phonon_fc2 was read from "FORCES_FC2".
+Writing fc2 to "fc2.hdf5".
+Max drift of fc2: 0.000000 (yy) 0.000000 (xx)
+----------- None of ph-ph interaction calculation was performed. -----------
+Summary of calculation was written in "phono3py.yaml".
+-------------------------[time 2024-10-04 20:10:13]-------------------------
+                 _
+   ___ _ __   __| |
+  / _ \ '_ \ / _` |
+ |  __/ | | | (_| |
+  \___|_| |_|\__,_|
+
+Root directory: /media/user/a3b0c976-a8e6-4fb2-9d1c-66c10bc02a32/Simulation/semiconductor_database/BTE_with_phono3py_vasp/test_script_Si/2_calculations
+Working directory: /media/user/a3b0c976-a8e6-4fb2-9d1c-66c10bc02a32/Simulation/semiconductor_database/BTE_with_phono3py_vasp/test_script_Si/2_calculations/1_prim_relax
+Working directory: /media/user/a3b0c976-a8e6-4fb2-9d1c-66c10bc02a32/Simulation/semiconductor_database/BTE_with_phono3py_vasp/test_script_Si/2_calculations/2_force_constant
+Running command: phono3py -d --dim="2 2 2" --dim-fc2="2 2 2"
+['POSCAR_FC2-00001']
+FC2: Calculating supercell 0 / 1, f_max  0.25817
+['POSCAR-00001', 'POSCAR-00002', 'POSCAR-00003', 'POSCAR-00004', 'POSCAR-00005', 'POSCAR-00006', 'POSCAR-00007', 'POSCAR-00008', 'POSCAR-00009', 'POSCAR-00010', 'POSCAR-00011', 'POSCAR-00012', 'POSCAR-00013', 'POSCAR-00014', 'POSCAR-00015', 'POSCAR-00016', 'POSCAR-00017', 'POSCAR-00018', 'POSCAR-00019', 'POSCAR-00020', 'POSCAR-00021', 'POSCAR-00022', 'POSCAR-00023', 'POSCAR-00024', 'POSCAR-00025', 'POSCAR-00026', 'POSCAR-00027', 'POSCAR-00028', 'POSCAR-00029', 'POSCAR-00030', 'POSCAR-00031', 'POSCAR-00032', 'POSCAR-00033', 'POSCAR-00034', 'POSCAR-00035', 'POSCAR-00036', 'POSCAR-00037', 'POSCAR-00038', 'POSCAR-00039', 'POSCAR-00040', 'POSCAR-00041', 'POSCAR-00042', 'POSCAR-00043', 'POSCAR-00044', 'POSCAR-00045', 'POSCAR-00046', 'POSCAR-00047', 'POSCAR-00048', 'POSCAR-00049', 'POSCAR-00050', 'POSCAR-00051', 'POSCAR-00052', 'POSCAR-00053', 'POSCAR-00054', 'POSCAR-00055', 'POSCAR-00056', 'POSCAR-00057']
+FC3: Calculating supercell 0 / 57, f_max=  0.25817
+FC3: Calculating supercell 1 / 57, f_max=  0.52733
+FC3: Calculating supercell 2 / 57, f_max=  0.25818
+FC3: Calculating supercell 3 / 57, f_max=  0.51506
+FC3: Calculating supercell 4 / 57, f_max=  0.00000
+FC3: Calculating supercell 5 / 57, f_max=  0.26600
+FC3: Calculating supercell 6 / 57, f_max=  0.27476
+FC3: Calculating supercell 7 / 57, f_max=  0.25792
+FC3: Calculating supercell 8 / 57, f_max=  0.26478
+FC3: Calculating supercell 9 / 57, f_max=  0.29648
+FC3: Calculating supercell 10 / 57, f_max=  0.24975
+FC3: Calculating supercell 11 / 57, f_max=  0.26600
+FC3: Calculating supercell 12 / 57, f_max=  0.27199
+FC3: Calculating supercell 13 / 57, f_max=  0.29691
+FC3: Calculating supercell 14 / 57, f_max=  0.27346
+FC3: Calculating supercell 15 / 57, f_max=  0.29840
+FC3: Calculating supercell 16 / 57, f_max=  0.24979
+FC3: Calculating supercell 17 / 57, f_max=  0.29914
+FC3: Calculating supercell 18 / 57, f_max=  0.24309
+FC3: Calculating supercell 19 / 57, f_max=  0.28249
+FC3: Calculating supercell 20 / 57, f_max=  0.25697
+FC3: Calculating supercell 21 / 57, f_max=  0.28246
+FC3: Calculating supercell 22 / 57, f_max=  0.25927
+FC3: Calculating supercell 23 / 57, f_max=  0.28189
+FC3: Calculating supercell 24 / 57, f_max=  0.23461
+FC3: Calculating supercell 25 / 57, f_max=  0.25768
+FC3: Calculating supercell 26 / 57, f_max=  0.26788
+FC3: Calculating supercell 27 / 57, f_max=  0.24839
+FC3: Calculating supercell 28 / 57, f_max=  0.26783
+FC3: Calculating supercell 29 / 57, f_max=  0.18571
+FC3: Calculating supercell 30 / 57, f_max=  0.40427
+FC3: Calculating supercell 31 / 57, f_max=  0.14093
+FC3: Calculating supercell 32 / 57, f_max=  0.40336
+FC3: Calculating supercell 33 / 57, f_max=  0.32850
+FC3: Calculating supercell 34 / 57, f_max=  0.38129
+FC3: Calculating supercell 35 / 57, f_max=  0.14093
+FC3: Calculating supercell 36 / 57, f_max=  0.37114
+FC3: Calculating supercell 37 / 57, f_max=  0.21002
+FC3: Calculating supercell 38 / 57, f_max=  0.30936
+FC3: Calculating supercell 39 / 57, f_max=  0.34505
+FC3: Calculating supercell 40 / 57, f_max=  0.38130
+FC3: Calculating supercell 41 / 57, f_max=  0.25935
+FC3: Calculating supercell 42 / 57, f_max=  0.30773
+FC3: Calculating supercell 43 / 57, f_max=  0.26624
+FC3: Calculating supercell 44 / 57, f_max=  0.25086
+FC3: Calculating supercell 45 / 57, f_max=  0.26590
+FC3: Calculating supercell 46 / 57, f_max=  0.25805
+FC3: Calculating supercell 47 / 57, f_max=  0.27565
+FC3: Calculating supercell 48 / 57, f_max=  0.26622
+FC3: Calculating supercell 49 / 57, f_max=  0.27404
+FC3: Calculating supercell 50 / 57, f_max=  0.26622
+FC3: Calculating supercell 51 / 57, f_max=  0.24957
+FC3: Calculating supercell 52 / 57, f_max=  0.26631
+FC3: Calculating supercell 53 / 57, f_max=  0.24970
+FC3: Calculating supercell 54 / 57, f_max=  0.27587
+FC3: Calculating supercell 55 / 57, f_max=  0.24955
+FC3: Calculating supercell 56 / 57, f_max=  0.26819
+Running command: phono3py --cfc --hdf5-compression gzip -c phono3py_disp.yaml
+Working directory: /media/user/a3b0c976-a8e6-4fb2-9d1c-66c10bc02a32/Simulation/semiconductor_database/BTE_with_phono3py_vasp/test_script_Si/2_calculations/3_BTE_calculations
+Running command: phono3py -q --fc2 --fc3 --bterta --dim="2 2 2" --dim-fc2="2 2 2" --tmin=10 --tmax=1000 --tstep=10 --mesh "16 16 16"
