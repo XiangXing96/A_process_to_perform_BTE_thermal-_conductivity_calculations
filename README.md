@@ -1,0 +1,2 @@
+# A_process_to_perform_BTE_thermal-_conductivity_calculations
+This is an exploration for first-principle-based thermal conductivity calculations based on atomic simulation environment (ase). The process calls vasp to obtain interatomic interactions and phono3py to calculate thermal transport properties. A structure file is required as the input and following calculations will be conducted automatically.
